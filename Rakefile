@@ -10,7 +10,7 @@ begin
     g.summary = %(acts_as_tree port for MongoMapper)
     g.description = %(acts_as_tree port for MongoMapper)
     g.email = 'signalstatic@gmail.com'
-    g.homepage = 'http://github.com/twoism/tree'
+    g.homepage = 'http://github.com/twoism/mm_tree'
     g.authors = %w(twoism)
   end
   Jeweler::GemcutterTasks.new
