@@ -3,7 +3,7 @@ MongoMapper.database = "testing_tree"
 
 class Doc
   include MongoMapper::Document
-  include Tree
+  include MMTree
   key :name, String, :required => true
   timestamps!
 end

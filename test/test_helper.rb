@@ -5,6 +5,6 @@ require 'rubygems'
 require 'test/unit'
 require 'shoulda'
 require 'mongo_mapper'
-require 'tree'
+require 'mm_tree'
 require 'schema'
 begin; require 'redgreen'; rescue LoadError; end
