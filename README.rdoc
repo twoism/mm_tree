@@ -1,9 +1,9 @@
-= taggable
+= mm_tree
 
-Tagging for MongoMapper
+acts_as_tree (http://github.com/rails/acts_as_tree) port for MongoMapper. 
 
 = installation
 
-The taggable gem is hosted on gemcutter.org:
+The mm_tree gem is hosted on gemcutter.org:
 
-* gem install taggable
+* gem install mm_tree

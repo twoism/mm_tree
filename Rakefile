@@ -6,11 +6,11 @@ require 'rake/rdoctask'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |g|
-    g.name = 'taggable'
-    g.summary = %(Tagging for MongoMapper)
-    g.description = %(Tagging for MongoMapper)
+    g.name = 'mm_tree'
+    g.summary = %(acts_as_tree port for MongoMapper)
+    g.description = %(acts_as_tree port for MongoMapper)
     g.email = 'signalstatic@gmail.com'
-    g.homepage = 'http://github.com/twoism/taggable'
+    g.homepage = 'http://github.com/twoism/tree'
     g.authors = %w(twoism)
   end
   Jeweler::GemcutterTasks.new
