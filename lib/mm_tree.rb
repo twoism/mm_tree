@@ -41,12 +41,11 @@ module MMTree
   def self.included klass
     klass.class_eval do
       belongs_to :parent, 
-                 :class_name => name, 
+                 :polymorphic => true, 
                  :foreign_key => :parent_id
       
       many :children, 
           :as => :parent, 
-          :class_name => name, 
           :foreign_key => :parent_id
                
       key :parent_id, ObjectId
